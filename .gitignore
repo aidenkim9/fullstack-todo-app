@@ -1,0 +1,13 @@
+# Frontend
+todo-frontend/node_modules
+todo-frontend/dist
+todo-frontend/.env
+
+# Backend
+todo-backend/target
+todo-backend/.env
+todo-backend/*.log
+
+# OS
+.DS_Store
+
