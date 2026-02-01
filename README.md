@@ -98,16 +98,12 @@
 
 ## 🔐 인증 흐름
 
-[로그인]
-↓
-Access Token 발급
-Refresh Token → HttpOnly Cookie 저장
-↓
-API 요청
-↓
-Access Token 만료
-↓
-Refresh Token으로 Access Token 재발급
+1. 사용자가 로그인 요청
+2. 서버에서 **Access Token** 발급
+3. **Refresh Token**을 HttpOnly Cookie로 저장
+4. Access Token을 포함하여 API 요청
+5. Access Token 만료 시
+6. Refresh Token을 사용해 Access Token 재발급
 
 ## 🐳 Docker 구성
 
